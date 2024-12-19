@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -29,6 +31,12 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
 .hero h1 {
     font-size: 2.5rem;
     color: #6200ea;
@@ -39,9 +47,25 @@ nav a:hover {
     color: #555;
 }
 
+.section h2 {
+    font-size: 2rem;
+    color: #3700b3;
+}
+
 footer {
     background-color: #6200ea;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.contact a {
+    color: #6200ea;
+    text-decoration: none;
+    font-weight: bold;
 }
