@@ -1,0 +1,110 @@
+<! DOCTYPE html> 
+<html lang="es">
+<cabeza> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Es Lo Que Hay</title>
+ <estilo> 
+ cuerpo { 
+ familia tipográfica: Arial, sans-serif; 
+ margen: 0; 
+ relleno: 0; 
+ color de fondo: #f9f9f9; 
+            color: #333;
+        }
+ encabezado { 
+ color de fondo: #6200ea; 
+            color: #fff;
+ Acolchado: 1rem; 
+ text-align: centro; 
+        }
+        nav {
+ Pantalla: Flex; 
+ justify-content: centro; 
+ brecha: 1rem; 
+ color de fondo: #3700b3; 
+ relleno: 0,5rem 0; 
+        }
+        nav a {
+            color: #fff;
+ texto-decoración: ninguno; 
+ font-weight: negrita; 
+        }
+        nav a:hover {
+ texto-decoración: subrayado; 
+        }
+ .contenedor { 
+ ancho máximo: 1200px; 
+ Margen: 2rem Auto; 
+ relleno: 0 1rem; 
+        }
+        .hero {
+ text-align: centro; 
+ margen: 2rem 0; 
+        }
+        .hero h1 {
+ tamaño de fuente: 2.5rem; 
+            color: #6200ea;
+        }
+        .hero p {
+ tamaño de fuente: 1.2rem; 
+            color: #555;
+        }
+ .sección { 
+ margen: 2rem 0; 
+        }
+ .sección h2 { 
+ tamaño de fuente: 2rem; 
+            color: #3700b3;
+        }
+ pie de página { 
+ color de fondo: #6200ea; 
+            color: #fff;
+ text-align: centro; 
+ Relleno: 1rem 0; 
+        }
+ .contacto { 
+ text-align: centro; 
+ margen superior: 2rem; 
+        }
+        .contact a {
+            color: #6200ea;
+ texto-decoración: ninguno; 
+ font-weight: negrita; 
+        }
+ </estilo> 
+</cabeza> 
+<cuerpo> 
+ <encabezado> 
+        <h1>Es Lo Que Hay</h1>
+        <p>Inspirando, reflexionando y viviendo el presente</p>
+ </encabezado> 
+ <navegación> 
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-nosotros">Sobre Nosotros</a>
+        <a href="#blog">Blog</a>
+        <a href="#contacto">Contacto</a>
+ </navegación> 
+ <div class="contenedor"> 
+ <section id="inicio" class="héroe"> 
+            <h1>Bienvenido a Es Lo Que Hay</h1>
+            <p>No siempre será perfecto, pero será auténtico.</p>
+ </sección> 
+        <section id="sobre-nosotros" class="section">
+            <h2>Sobre Nosotros</h2>
+            <p>En Es Lo Que Hay, creemos en la importancia de aceptar la vida como viene. Aquí encontrarás reflexiones, frases motivacionales y datos curiosos que inspiran a disfrutar el momento presente.</p>
+ </sección> 
+        <section id="blog" class="section">
+            <h2>Blog</h2>
+            <p>Pronto compartiremos contenido motivacional, datos curiosos y reflexiones que te harán pensar. ¡Mantente conectado!</p>
+ </sección> 
+ <section id="contacto" class="contacto"> 
+            <h2>Contacto</h2>
+            <p>¿Quieres colaborar con nosotros o tienes alguna pregunta? Escríbenos a <a href="mailto:contacto@esloquehay.com">contacto@esloquehay.com</a>.</p>
+ </sección> 
+    </div>
+ <pie de página> 
+ <p>&copia; 2024 es lo que hay. Todos los derechos reservados.</p> 
+ </pie de página> 
+</cuerpo> 
+</html>
